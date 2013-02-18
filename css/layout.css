@@ -241,13 +241,20 @@
 	}
 
 	.hero{
-		line-height: 0px;
-		text-align: center;
 		background: #fff;
+		background: url(images/buttercups.jpg);
+		background-size: cover;
+		padding: 15px;
 	}
 
 	.hero img{
 		max-width: 100%;
+	}
+
+	.hero .lead{
+		text-shadow: 1px 1px rgba(26, 1, 1, .2);
+		font-size: 19px;
+		font-weight: bold;
 	}
 
 	.donate a{

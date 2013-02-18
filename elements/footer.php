@@ -34,8 +34,7 @@
 		<?php  Loader::element('footer_required'); ?>
 		
 		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4dbf29307cc266c2"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4dbf29307cc266c2"></script>		
 		<script type="text/javascript">
 
 			$('.mobile-menu-toggle').on('click', function(){

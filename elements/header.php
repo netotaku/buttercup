@@ -16,6 +16,7 @@
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<?php 
 			Loader::element('header_required'); 
 		?>
