@@ -1,5 +1,5 @@
-@mixin rounded($radius, $tr, $tl, $bl, $br){
-	
+@mixin rounded($radius){
+	border-radius: $radius;
 }
 
 @mixin clearfix {

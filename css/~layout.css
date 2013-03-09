@@ -43,25 +43,9 @@
 		text-align: center;
 	}
 
-	.main-menu{
-		position: absolute;
-		top: 0;
-		right: 0;
-		padding: 10px;
-	}
 
-	.main-menu ul li{
-		float: left;
-	}
 
-	.main-menu ul li a{
-		display: block;
-		padding: 10px;
-	}
 
-	.header{
-		position: relative;
-	}
 
 	.standout img{
 		width: 100%;
@@ -271,26 +255,10 @@
 		color: #fff;
 	}
 
-	.donate a{
-		display: block;
-		color: #fff;
-		background: #d64824;
-		border-bottom: 3px solid #be3f1f;
-		padding: 15px;
-		text-decoration: none;
-	}
 
-	.widget{
-		border-radius: 3px;
-		margin-bottom: 20px;
-		overflow: hidden;
-	}
+	
 
-	.donate a span{
-		font-size: 19px;
-		font-weight: bold;
-		display: block;
-	}
+
 
 	.widget nav{
 		margin: 0px;
@@ -301,27 +269,6 @@
 		margin-bottom: 0px;
 	}
 
-	.helpline{
-		background: #1f1f38;
-		color: #fff;
-		padding: 15px;
-		border-bottom: 3px solid #1a1a31;
-	}
-
-	.helpline a{
-		display: block;
-		color: #fff;
-		text-decoration: none;
-		font-size: 14px;
-		font-weight: normal;
-	}
-
-	.helpline .tel{
-		display: block;
-		font-size: 25px;
-		font-weight: bold;
-		font-style: none!important;
-	}
 
 	.share{
 		background: #b6d1ba;

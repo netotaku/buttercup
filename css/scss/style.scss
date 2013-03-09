@@ -28,3 +28,69 @@
 		text-decoration: underline;
 
 	}
+
+
+	.main-menu{
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 10px;
+
+		ul li{
+			float: left;
+			a{
+				display: block;
+				padding: 10px;
+			}
+		}
+
+	}
+
+
+	.widget{
+		@include rounded(3px); 
+		margin-bottom: 20px;
+		overflow: hidden;
+
+		&.donate{		
+			a{ 
+				display: block;
+				color: #fff;
+				background: #d64824;
+				border-bottom: 3px solid #be3f1f;
+				padding: 15px;
+				text-decoration: none;
+
+				span{
+					font-size: 19px;
+					font-weight: bold;
+					display: block;
+				}
+			}
+		}
+
+		&.helpline{
+			background: #1f1f38;
+			color: #fff;
+			padding: 15px;
+			border-bottom: 3px solid #1a1a31;
+
+			a{
+				display: block;
+				color: #fff;
+				text-decoration: none;
+				font-size: 14px;
+				font-weight: normal;
+			}
+
+			.tel{
+				display: block;
+				font-size: 25px;
+				font-weight: bold;
+				font-style: none!important;
+			}			
+
+		}		
+
+	}
+
