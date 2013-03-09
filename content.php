@@ -5,7 +5,17 @@
 		 
 <div class="main">
 	<div class="container">
-			<div class="twelve columns">
+			<div class="three columns">
+				<div class="widget menu">
+				<?php
+					$bt = BlockType::getByHandle('autonav');
+					$bt->controller->displayPages = 'second_level';  
+					$bt->controller->orderBy = 'display_asc';
+					$bt->render('templates/sub_menu');
+				?>
+				</div>	
+			</div>
+			<div class="nine columns">
 
 			  <div class="breadcrumb clearfix">
 			  	<?php
@@ -36,19 +46,15 @@
 			</div>
 			
 			<div class="four columns">	
-				<aside>
-					<?php
-						$bt = BlockType::getByHandle('autonav');
-						$bt->controller->displayPages = 'second_level';  
-						$bt->controller->orderBy = 'display_asc';
-						$bt->render('templates/sub_menu');
-					?>						
+				<aside>					
 					<div class="widget donate">
 						<a href="#"><span>Donate Now <i class="icon-chevron-right"></i></span> Visit our JustGiving Page</a>
 					</div>
 					<div class="widget helpline">
-						<span><i class="icon-phone"></i> Carer Helpline</span>
-						<span class="tel">01234 456 890</span>
+						<a href="/about/helpline">
+							<span><i class="icon-phone"></i> Carer Helpline</span>
+							<span class="tel">01234 456 890</span>
+						</a>
 					</div>
 					<div class="widget share">
 						<h4>Share.</h4>

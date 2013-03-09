@@ -25,7 +25,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->getStyleSheet('css/base.css')?>" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->getStyleSheet('css/layout.css')?>" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
-		<!--[if IE 8 ]>
+		<!--[if lt IE 9 ]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>

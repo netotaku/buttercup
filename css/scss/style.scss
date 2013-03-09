@@ -1,0 +1,30 @@
+
+@import "config";
+@import "mixins";
+
+
+	body{
+
+		padding-top: 60px;
+		padding-bottom: 60px;
+
+		.edit-mode{
+			background: #000;
+		};
+
+	}
+
+	a{
+
+		&:active, 
+		&:visited, 
+		&:hover{
+			color: rgb(28,152,193);
+		};
+		&:hover{
+			text-decoration: none;	
+		};
+		
+		text-decoration: underline;
+
+	}

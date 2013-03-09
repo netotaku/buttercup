@@ -6,7 +6,7 @@
 <div class="hero">
 
 	<div class="container">
-		<div class="eight columns">
+		<div class="ten columns">
 			<div class="lead">
 				<?php 
 					$a = new Area('Main');
@@ -14,13 +14,15 @@
 				?>
 			</div>
 		</div>
-		<div class="eight columns">
+		<div class="six columns">
 			<div class="widget donate">
 				<a href="#"><span>Donate Now <i class="icon-chevron-right"></i></span> Visit our JustGiving Page</a>
 			</div>
 			<div class="widget helpline">
-				<span><i class="icon-phone"></i> Carer Helpline</span>
-				<span class="tel">01234 456 890</span>
+				<a href="/about/helpline/">
+					<span><i class="icon-phone"></i> Carer Helpline</span>
+					<span class="tel">01234 456 890</span>
+				</a>
 			</div>
 		</div>
 	</div>
