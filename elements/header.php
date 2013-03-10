@@ -21,8 +21,6 @@
 			Loader::element('header_required'); 
 		?>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" type="text/css" href="<?php echo $this->getStyleSheet('css/skeleton.css')?>" />
-		<link rel="stylesheet" type="text/css" href="<?php echo $this->getStyleSheet('css/base.css')?>" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->getStyleSheet('css/layout.css')?>" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
 		<!--[if lt IE 9 ]>

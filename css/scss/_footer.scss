@@ -1,0 +1,23 @@
+
+	footer{
+		@include reset-links(#fff);
+		color: #fff;
+		ul {
+			padding: 0px;
+			margin: 0px;
+			li{
+				padding: 0px;
+				margin: 0px;
+			}
+		}
+		h5{
+			color: #fff;
+			font-size: 14px;
+			font-weight: bold;
+			padding-bottom: 5px;
+			padding-top: 20px;
+		}
+		strong{
+			color: #fff;
+		}
+	}

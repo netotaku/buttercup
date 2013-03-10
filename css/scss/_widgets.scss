@@ -1,0 +1,77 @@
+
+
+	.widget{
+		@include rounded(3px); 
+		margin-bottom: 20px;
+		overflow: hidden;
+
+		border-bottom: 3px solid;
+
+		&.menu,
+		&.nav{
+			border: 0px;
+		}
+
+		&.nav{
+			font-size: 12px;
+		}
+
+		nav{
+			margin: 0px;
+			padding: 0px;
+			ul{
+				margin-bottom: 0px;
+			}
+		}		
+
+		&.donate{		
+			border-color: $red-low;
+			a{ 
+				display: block;
+				color: $red-text;
+				background: $red-high;
+				padding: 15px;
+				text-decoration: none;
+
+				span{
+					font-size: 19px;
+					font-weight: bold;
+					display: block;
+				}
+			}
+		}
+
+		&.helpline{
+			background: $navy-high;
+			color: $navy-text;
+			padding: 15px;
+			border-color: $navy-low;
+
+			a{
+				display: block;
+				color: $navy-text;
+				text-decoration: none;
+				font-size: 14px;
+				font-weight: normal;
+			}
+
+			.tel{
+				display: block;
+				font-size: 25px;
+				font-weight: bold;
+				font-style: none!important;
+			}			
+
+		}
+
+		&.share{
+			background: $light-blue-high;
+			border-bottom: 3px solid $light-blue-low;
+			padding: 15px;
+			
+			h4{
+				font-weight: bold;
+			}
+		}
+
+	}

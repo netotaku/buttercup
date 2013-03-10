@@ -1,8 +1,9 @@
 
 @import "config";
 @import "mixins";
-@import "menus";
 
+@import "skeleton";
+@import "base";
 
 /* #Page Styles
 ================================================== */
@@ -76,8 +77,9 @@
 
 
 @import "header";
-@import "footer";
+@import "menus";
 @import "widgets";
+@import "footer";
 @import "ie";
 @import "media";
 

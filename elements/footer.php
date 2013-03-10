@@ -5,10 +5,11 @@
 				<div class="eight columns">
 					<p class="cp">
 						<strong>&copy; Buttercup UK 2013</strong></br>
-						Registered charity No. 1234567 in England and Wales and No. SC123456 in Scotland. Registered company No. 1234567. Registered address 126 Kings Road, Newbury Berkshire RG14 5RG
+						Registered charity No. 1151137 in England and Wales. 
+						Registered address 126 Kings Road, Newbury Berkshire RG14 5RG.
 					</p>
 					<p>
-						Built by <strong><a href="http://goramandvincent.com">Goram+Vincent</a></strong>
+						<strong><a href="http://goramandvincent.com">Goram+Vincent</a></strong>
 					</p>
 				</div>				
 				<div class="four columns">
