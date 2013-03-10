@@ -13,3 +13,12 @@
   }
   * html & { height: 1px }
 }
+
+@mixin reset-links($colour){
+  a, 
+  a:active, 
+  a:visited, 
+  a:hover{
+    color: $colour;
+  }  
+}

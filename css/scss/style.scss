@@ -1,96 +1,85 @@
 
 @import "config";
 @import "mixins";
+@import "menus";
 
+
+/* #Page Styles
+================================================== */
 
 	body{
 
-		padding-top: 60px;
-		padding-bottom: 60px;
+		.cp{
+			padding-top: 20px;
+		}
+
+		h1, h2, h3, h4, h5, h6{
+			font-family: arial!important;
+			font-weight: bold;
+		}
+
+		padding-top: 0px;
+		margin-top: 0px;
+		background: #929e6c;	
+
+		.main{
+			background: #fff;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}			
 
 		.edit-mode{
-			background: #000;
-		};
+			// background: #000;
+		}
 
 	}
 
-	a{
+	@include reset-links(rgb(28,152,193));
 
-		&:active, 
-		&:visited, 
-		&:hover{
-			color: rgb(28,152,193);
-		};
+	a{
 		&:hover{
 			text-decoration: none;	
 		};
-		
 		text-decoration: underline;
-
 	}
 
-
-	.main-menu{
-		position: absolute;
-		top: 0;
-		right: 0;
-		padding: 10px;
-
-		ul li{
-			float: left;
-			a{
-				display: block;
-				padding: 10px;
-			}
+	article{ 
+		.snippet{
+			font-size: 19px;
+			font-weight: bold;
+			border-bottom: 1px dotted #aaa;
+			margin-bottom: 15px;
 		}
-
 	}
 
+	.hero{
+		background: #fff;
+		background: url(images/buttercups.jpg);
+		background-size: cover;
+		padding: 15px;
 
-	.widget{
-		@include rounded(3px); 
-		margin-bottom: 20px;
-		overflow: hidden;
-
-		&.donate{		
-			a{ 
-				display: block;
-				color: #fff;
-				background: #d64824;
-				border-bottom: 3px solid #be3f1f;
-				padding: 15px;
-				text-decoration: none;
-
-				span{
-					font-size: 19px;
-					font-weight: bold;
-					display: block;
-				}
-			}
+		img{
+			max-width: 100%;
 		}
 
-		&.helpline{
-			background: #1f1f38;
+		.lead{
+			text-shadow: 1px 1px 6px rgba(0, 0, 0, .8);
+			font-size: 19px;
+			font-weight: bold;
 			color: #fff;
-			padding: 15px;
-			border-bottom: 3px solid #1a1a31;
-
-			a{
-				display: block;
+			h2{
 				color: #fff;
-				text-decoration: none;
-				font-size: 14px;
-				font-weight: normal;
 			}
-
-			.tel{
-				display: block;
-				font-size: 25px;
-				font-weight: bold;
-				font-style: none!important;
-			}			
-
-		}		
+		}
 
 	}
+
+
+@import "header";
+@import "footer";
+@import "widgets";
+@import "ie";
+@import "media";
+
+
 
