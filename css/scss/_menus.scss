@@ -58,7 +58,7 @@
 
 .mobile-menu-toggle{
 	padding: 5px;
-	border-radius: 3px;
+	@include rounded($radius);
 	background: $yellow-low;
 	color: #fff;
 	position: absolute;

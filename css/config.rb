@@ -6,7 +6,8 @@ images_dir = "../images"
 javascripts_dir = "../js"
 css_dir = "./"
 output_style = :expanded
-sass_options = {:debug_info => true}
+#output_style = :compressed
+sass_options = {:debug_info => false}
 # To enable relative paths to assets via compass helper functions. Uncomment:
-relative_assets = true
+#relative_assets = true
 line_comments = true

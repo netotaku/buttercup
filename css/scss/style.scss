@@ -1,87 +1,13 @@
 
-@import "config";
+@import "http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css";
+@import "globals";
 @import "mixins";
-
 @import "skeleton";
 @import "base";
-
-/* #Page Styles
-================================================== */
-
-	body{
-
-		.cp{
-			padding-top: 20px;
-		}
-
-		h1, h2, h3, h4, h5, h6{
-			font-family: arial!important;
-			font-weight: bold;
-		}
-
-		padding-top: 0px;
-		margin-top: 0px;
-		background: #929e6c;	
-
-		.main{
-			background: #fff;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}			
-
-		.edit-mode{
-			// background: #000;
-		}
-
-	}
-
-	@include reset-links(rgb(28,152,193));
-
-	a{
-		&:hover{
-			text-decoration: none;	
-		};
-		text-decoration: underline;
-	}
-
-	article{ 
-		.snippet{
-			font-size: 19px;
-			font-weight: bold;
-			border-bottom: 1px dotted #aaa;
-			margin-bottom: 15px;
-		}
-	}
-
-	.hero{
-		background: #fff;
-		background: url(images/buttercups.jpg);
-		background-size: cover;
-		padding: 15px;
-
-		img{
-			max-width: 100%;
-		}
-
-		.lead{
-			text-shadow: 1px 1px 6px rgba(0, 0, 0, .8);
-			font-size: 19px;
-			font-weight: bold;
-			color: #fff;
-			h2{
-				color: #fff;
-			}
-		}
-
-	}
-
-
+@import "constants";
 @import "header";
 @import "menus";
 @import "widgets";
 @import "footer";
 @import "ie";
 @import "media";
-
-
-

@@ -1,7 +1,7 @@
 
 
 	.widget{
-		@include rounded(3px); 
+		@include rounded($radius); 
 		margin-bottom: 20px;
 		overflow: hidden;
 
